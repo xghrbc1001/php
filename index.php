@@ -2,8 +2,8 @@
  session_start();
 
 if(!isset($_SESSION['userid'])){
-    // header("Location:login.html");
-    // exit();
+     header("Location:login.html");
+     exit();
 }
 ?>
 
@@ -50,7 +50,6 @@ if(!isset($_SESSION['userid'])){
 	</div>
 <script type="text/javascript">
 	var uid='<?php echo $_SESSION['userid']; ?>';
-	var uid=3;
 	var parent_id=0;
 	var tid=0;
 </script>
