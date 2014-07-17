@@ -1,0 +1,105 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+.btn{
+width: 71px;
+height: 32px;
+background-position: 0 -330px;
+}
+.input{
+border: 1px #494949 solid;
+background: #FFF;
+padding: 4px 0 0 2px;
+vertical-align: middle;
+margin-bottom: 2px;
+}
+.text{
+width:80%;
+height:50%;
+}
+.end{
+	margin-right:0px;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+h1{
+  font-size:30pt;
+  font-weight:normal;
+}
+h2{
+  font-size:9.5pt;
+  font-weight:normal;
+}
+body{
+	font-family:"Century Gothic";
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.top{
+   background-color:#231F20;
+   height:70px;
+   width:100%;
+   color:#ffffff;
+}
+.top a{
+	color:#ffffff;
+}
+.nav{
+   background-color:#494949;
+   height:30px;
+   line-height:30px;
+   width:100%;
+}
+.nav ul{
+	list-style:none;
+	width:auto;
+}
+.nav ul li{
+	margin:0 10px;
+	float:left;
+}
+.nav a{
+	color:#ffffff;
+  	font-size:12pt;
+}
+
+.container{
+   min-height:500px;
+   width:100%;
+   margin:30px 0;
+}
+.middle{
+   width:980px;
+   margin: 0 auto;
+}
+.container ul{
+	list-style:none;
+}
+.container > ul > li{
+	margin: 10px 0px;
+}
+.lev1{
+	font-weight:bold;
+	font-size:9.5pt;
+}
+.lev2{
+	font-size:7pt;
+	color:#747474;
+}
+.addnew{
+	font-size:7pt;
+	color:#747474;
+}
+.headerLogin{
+  height:100%;
+  line-height:100%;
+}
