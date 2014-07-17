@@ -4,9 +4,6 @@ include 'todolist.php';
 
 $user_id=$_GET['uid']; 
 $msi=new mysqli(DB_HOST,DB_USER,DB_PW,DB_NAME);
-if($msi->cononnect_error){
-	die("connect fail".$msi->connect_error);
-}
 
 $sql = "select id,title,content,star,parent_id,user_id from todolist where user_id=$user_id and parent_id=0";
 $res=$msi->query($sql);
