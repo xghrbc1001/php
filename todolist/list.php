@@ -3,16 +3,12 @@ include '../config/config.php';
 include 'todolist.php';
 
 $user_id=$_GET['uid']; 
-$id=$_GET['id'];
 $msi=new mysqli(DB_HOST,DB_USER,DB_PW,DB_NAME);
 if($msi->cononnect_error){
 	die("connect fail".$msi->connect_error);
 }
 
 $sql = "select id,title,content,star,parent_id,user_id from todolist where user_id=$user_id and parent_id=0";
-if($id!=null || $id!=""){
-$sql=$sql+ "and id = $id";
-}
 $res=$msi->query($sql);
 
 $toDoLists=array();
