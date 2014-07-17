@@ -43,16 +43,16 @@ if(!isset($_SESSION['userid'])){
 		</div>
 	</div>
 	<div class="container">
-	<div class="middle">
-	<ul id="todolist">
-	</ul>
+		<div class="middle">
+			<ul id="todolist">
+			</ul>
+		</div>
 	</div>
-	</div>
-<script type="text/javascript">
-	var uid='<?php echo $_SESSION['userid']; ?>';
-	var parent_id=0;
-	var tid=0;
-</script>
+	<script type="text/javascript">
+		var uid=<?php echo $_SESSION['userid']; ?>;
+		var parent_id=0;
+		var tid=0;
+	</script>
 	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
